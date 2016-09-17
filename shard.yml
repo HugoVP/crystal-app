@@ -1,0 +1,40 @@
+name: crystal-app
+version: 0.1.0
+
+authors:
+  - Hugo <hugo.vazquez.paleo@gmail.com>
+
+license: MIT
+
+dependencies:
+
+  kemal:
+    github: sdogruyol/kemal
+    branch: master
+
+  # pg:
+  #   github: will/crystal-pg
+
+  # pool:
+  #   github: ysbaddaden/pool
+
+  # active_record:
+    # github: waterlink/active_record.cr
+    # version: ~> 0.4
+
+  postgres_adapter:
+    github: feifanzhou/postgres_adapter.cr
+    branch: master
+  #   # github: waterlink/postgres_adapter.cr
+  #   version: ~> 0.4
+
+development_dependencies:
+
+  dotenv:
+    github: gdotdesign/cr-dotenv
+
+  faker:
+    github: askn/faker
+
+  micrate:
+    github: juanedi/micrate

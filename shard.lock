@@ -1,0 +1,46 @@
+version: 1.0
+shards:
+  active_record:
+    github: feifanzhou/active_record.cr
+    commit: dbf20fbfd0cc032c52b4003799ddfa022cf7062f
+
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    commit: 68702bfa0a3c7eda9aa448c36d2d68dcecce7677
+
+  faker:
+    github: askn/faker
+    version: 0.1
+
+  kemal:
+    github: sdogruyol/kemal
+    commit: 7c8915bfa4c10f98e065315816a2f689cc78d945
+
+  kilt:
+    github: jeromegn/kilt
+    version: 0.3.3
+
+  micrate:
+    github: juanedi/micrate
+    version: 0.2.2
+
+  pg:
+    github: will/crystal-pg
+    version: 0.11.0
+
+  pool:
+    github: ysbaddaden/pool
+    version: 0.2.3
+
+  postgres_adapter:
+    github: feifanzhou/postgres_adapter.cr
+    commit: 82092108894a4a7edd108ad122ae5667ced8f53b
+
+  query:
+    github: waterlink/query.cr
+    version: 0.1.2
+
+  radix:
+    github: luislavena/radix
+    version: 0.3.1
+

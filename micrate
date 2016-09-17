@@ -1,0 +1,8 @@
+require "micrate"
+require "dotenv"
+
+module Crystal::App::MicrateCli
+    hash = Dotenv.load!
+    ENV["PG_URL"] ||= hash["DATABASE_URL"]
+    Micrate::Cli.run
+end

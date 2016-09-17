@@ -1,0 +1,10 @@
+# dot files
+/.crystal
+/.shards
+.env
+.old
+.DS_Store
+
+# directories
+/doc
+/libs
